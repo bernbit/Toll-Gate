@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vehicle</title>
-    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <!-- Sidebar  -->
@@ -113,7 +113,7 @@
         </li>
         <!-- Vehicles -->
         <li class="menu-item">
-          <a href="./vehicle.html" class="menu-link active">
+          <a href="/vehicle.html" class="menu-link active">
             <!-- Vehicle Icon -->
             <svg
               width="25"
@@ -149,7 +149,7 @@
         </li>
         <!-- Fingerprints -->
         <li class="menu-item">
-          <a href="./fingerprint.html" class="menu-link">
+          <a href="/fingerprint.html" class="menu-link">
             <!-- Fingerprint Icon -->
             <svg
               width="25"
@@ -186,7 +186,7 @@
         </li>
         <!-- Settings -->
         <li class="menu-item">
-          <a href="./setting.html" class="menu-link">
+          <a href="/setting.html" class="menu-link">
             <!-- Setting Icon -->
             <svg
               width="25"
@@ -369,76 +369,231 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>0R75VJ6G</td>
-                <td>ABC-1234</td>
-                <td>Car</td>
-                <td>Mark Kris Ornedo</td>
-                <td>Student</td>
-                <td>First Year</td>
-                <td>2-A</td>
-                <td>BSHM</td>
-                <td class="table-action-btn">
-                  <!-- Edit Button -->
-                  <button
-                    class="edit-vehicle-btn"
-                    onclick="editVehicle(1, 'Logan Logia', 'Admin')"
-                  >
-                    <svg
-                      width="30"
-                      height="30"
-                      viewBox="0 0 30 30"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clip-path="url(#clip0_44_202)">
-                        <path
-                          d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30Z"
-                          fill="#26A1F4"
-                        />
-                        <path
-                          d="M20.2236 13.9183L20.2154 13.9101L16.081 9.77283C16.081 9.77283 11.042 14.8119 8.61385 17.2904C8.3115 17.5986 8.0824 18.0275 7.94646 18.4424C7.54803 19.6605 7.21814 20.9033 6.85135 22.1338C6.75291 22.4636 6.77283 22.7543 7.03123 23.0004C7.27498 23.2347 7.5492 23.2429 7.8656 23.148C9.03748 22.7965 10.217 22.4619 11.3941 22.125C11.9994 21.9495 12.5482 21.6184 12.9855 21.1646C15.2988 18.8373 20.2236 13.9183 20.2236 13.9183Z"
-                          fill="white"
-                        />
-                        <path
-                          d="M22.6371 8.77792L21.2232 7.36406C20.8606 7.00178 20.3691 6.79828 19.8565 6.79828C19.344 6.79828 18.8524 7.00178 18.4898 7.36406L16.8873 8.96484L21.0351 13.1139L22.6377 11.5113C22.9999 11.1487 23.2033 10.6571 23.2031 10.1445C23.203 9.63196 22.9994 9.14042 22.6371 8.77792Z"
-                          fill="white"
-                        />
-                      </g>
-                    </svg>
-                  </button>
-
-                  <!-- Delete Button -->
-                  <button class="delete-vehicle-btn" onclick="deleteVehicle(1)">
-                    <svg
-                      width="30"
-                      height="30"
-                      viewBox="0 0 30 30"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M15 0C6.72902 0 0 6.72902 0 15C0 23.271 6.72885 30 15 30C23.2712 30 30 23.271 30 15C30 6.72896 23.2711 0 15 0ZM12.0749 6.69897C12.075 6.56966 12.1263 6.44564 12.2177 6.35418C12.3091 6.26273 12.4331 6.21131 12.5624 6.21123H17.4374C17.5668 6.21152 17.6908 6.26309 17.7822 6.35462C17.8736 6.44616 17.925 6.57019 17.9251 6.69955V7.90523H12.0749V6.69897ZM20.0906 23.0911C20.0781 23.2813 19.9934 23.4595 19.8539 23.5892C19.7143 23.719 19.5304 23.7905 19.3399 23.7891H10.6035C10.4131 23.7886 10.2298 23.716 10.0906 23.586C9.95144 23.456 9.86659 23.2781 9.85313 23.0881L9.10588 12.1523H20.888L20.0906 23.0911ZM22.0324 11.1621H7.96758V10.029C7.96783 9.7285 8.08729 9.44041 8.29974 9.22794C8.51218 9.01547 8.80026 8.89598 9.10072 8.8957L20.8991 8.89535C21.1996 8.89577 21.4876 9.01536 21.7001 9.22789C21.9125 9.44042 22.0319 9.72854 22.0322 10.029L22.0324 11.1621ZM12.7354 21.1821V14.2383C12.7354 14.107 12.7876 13.9811 12.8805 13.8882C12.9734 13.7954 13.0993 13.7433 13.2306 13.7433C13.362 13.7434 13.4879 13.7956 13.5807 13.8885C13.6735 13.9814 13.7256 14.1073 13.7256 14.2386V21.1821C13.7266 21.2478 13.7145 21.313 13.6901 21.3739C13.6657 21.4349 13.6294 21.4904 13.5833 21.5372C13.5372 21.584 13.4823 21.6211 13.4217 21.6465C13.3611 21.6718 13.2961 21.6849 13.2305 21.6849C13.1648 21.6849 13.0998 21.6718 13.0392 21.6465C12.9786 21.6211 12.9237 21.584 12.8776 21.5372C12.8316 21.4904 12.7953 21.4349 12.7708 21.3739C12.7464 21.313 12.7343 21.2478 12.7354 21.1821ZM16.2681 21.1821V14.2383C16.2701 14.1083 16.3232 13.9843 16.4159 13.8931C16.5086 13.8019 16.6334 13.7509 16.7634 13.7509C16.8934 13.7509 17.0182 13.8021 17.1108 13.8934C17.2034 13.9846 17.2564 14.1086 17.2583 14.2386V21.1824C17.2598 21.2483 17.248 21.3139 17.2238 21.3752C17.1995 21.4365 17.1633 21.4924 17.1172 21.5395C17.0711 21.5867 17.016 21.6241 16.9552 21.6497C16.8944 21.6752 16.8291 21.6884 16.7632 21.6884C16.6973 21.6884 16.632 21.6752 16.5712 21.6497C16.5104 21.6241 16.4553 21.5867 16.4092 21.5395C16.3631 21.4924 16.3269 21.4365 16.3026 21.3752C16.2784 21.3139 16.2667 21.248 16.2681 21.1821Z"
-                        fill="#FC0005"
-                      />
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M20.0906 23.0911C20.0781 23.2813 19.9934 23.4595 19.8539 23.5892C19.7143 23.719 19.5304 23.7905 19.3399 23.7891H10.6035C10.4131 23.7886 10.2298 23.716 10.0906 23.586C9.95144 23.456 9.86659 23.2781 9.85313 23.0881L9.10588 12.1523H20.888L20.0906 23.0911ZM12.7354 14.2383V21.1821C12.7343 21.2478 12.7464 21.313 12.7708 21.3739C12.7953 21.4349 12.8316 21.4904 12.8776 21.5372C12.9237 21.584 12.9786 21.6211 13.0392 21.6465C13.0998 21.6718 13.1648 21.6849 13.2305 21.6849C13.2961 21.6849 13.3611 21.6718 13.4217 21.6465C13.4823 21.6211 13.5372 21.584 13.5833 21.5372C13.6294 21.4904 13.6657 21.4349 13.6901 21.3739C13.7145 21.313 13.7266 21.2478 13.7256 21.1821V14.2386C13.7256 14.1073 13.6735 13.9814 13.5807 13.8885C13.4879 13.7956 13.362 13.7434 13.2306 13.7433C13.0993 13.7433 12.9734 13.7954 12.8805 13.8882C12.7876 13.9811 12.7354 14.107 12.7354 14.2383ZM16.2681 14.2383V21.1821C16.2667 21.248 16.2784 21.3139 16.3026 21.3752C16.3269 21.4365 16.3631 21.4924 16.4092 21.5395C16.4553 21.5867 16.5104 21.6241 16.5712 21.6497C16.632 21.6752 16.6973 21.6884 16.7632 21.6884C16.8291 21.6884 16.8944 21.6752 16.9552 21.6497C17.016 21.6241 17.0711 21.5867 17.1172 21.5395C17.1633 21.4924 17.1995 21.4365 17.2238 21.3752C17.248 21.3139 17.2598 21.2483 17.2583 21.1824V14.2386C17.2564 14.1086 17.2034 13.9846 17.1108 13.8934C17.0182 13.8021 16.8934 13.7509 16.7634 13.7509C16.6334 13.7509 16.5086 13.8019 16.4159 13.8931C16.3232 13.9843 16.2701 14.1083 16.2681 14.2383Z"
-                        fill="white"
-                      />
-                    </svg>
-                  </button>
-                </td>
-              </tr>
+              <!-- Vehicle data will be loaded here dynamically -->
             </tbody>
           </table>
         </div>
       </section>
     </main>
 
-    <script src="./script.js"></script>
+    <!-- Add Vehicle Modal -->
+    <div class="modal-overlay" id="vehicleModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.84548 27.2934C8.23965 27.2641 10.1568 25.2998 10.1276 22.906C10.0983 20.5121 8.13374 18.5953 5.73957 18.6245C3.3454 18.6538 1.42825 20.6181 1.4575 23.0119C1.48675 25.4058 3.45131 27.3226 5.84548 27.2934Z"
+                fill="#005C2B"
+              />
+              <path
+                d="M25.6288 27.2943C28.023 27.265 29.9401 25.3007 29.9109 22.9069C29.8816 20.513 27.9171 18.5961 25.5229 18.6254C23.1287 18.6546 21.2116 20.619 21.2408 23.0128C21.2701 25.4066 23.2346 27.3235 25.6288 27.2943Z"
+                fill="#005C2B"
+              />
+              <path
+                d="M16.8322 6.19043C17.0891 6.44532 17.4354 6.58959 17.7973 6.59238L20.1486 15.0586C20.5729 16.585 20.1932 18.2367 19.1039 19.3875C19.1039 19.3875 17.7047 20.8951 15.61 20.8975C14.9491 20.8928 14.3169 20.627 13.8513 20.1579C13.3858 19.6888 13.1247 19.0546 13.125 18.3938C13.1249 17.479 13.2271 16.5671 13.4297 15.675C13.691 14.6514 13.8615 14.3174 14.175 13.6752C15.1981 13.5352 15.593 12.0299 14.8365 10.8041C14.0432 9.51504 12.3041 9.36738 10.2076 10.101C8.11114 10.8346 6.15235 10.4391 3.44532 9.97617C0.723644 9.51094 0.297667 13.6869 2.26349 13.6869H3.45177C2.04685 14.5234 0.905547 15.7383 0.158214 17.1926C0.0726407 17.3573 0.0203701 17.5373 0.0043901 17.7222C-0.0115899 17.9072 0.00903389 18.0934 0.0650827 18.2704C0.121131 18.4473 0.211506 18.6115 0.331041 18.7535C0.450576 18.8956 0.596927 19.0126 0.76173 19.098C0.919029 19.1771 1.09705 19.2052 1.27104 19.1784C1.44504 19.1516 1.60637 19.0713 1.73263 18.9486C2.38644 18.2839 3.19436 17.791 4.08458 17.5137C4.63942 17.3477 5.21467 17.2597 5.79376 17.2523C7.30663 17.2541 8.75703 17.8558 9.82674 18.9256C10.8964 19.9955 11.4981 21.4459 11.4996 22.9588C11.4996 23.076 11.4961 23.1941 11.4891 23.3133C11.4865 23.3533 11.4922 23.3934 11.5058 23.4312C11.5193 23.4689 11.5405 23.5035 11.568 23.5327C11.5954 23.5619 11.6286 23.5852 11.6654 23.601C11.7022 23.6169 11.7419 23.6251 11.782 23.625H18.4031C18.7793 23.6144 19.1391 23.4687 19.4167 23.2147C19.6944 22.9607 19.8714 22.6153 19.9154 22.2416C20.053 21.158 20.4985 20.1367 21.1991 19.2987C21.8997 18.4608 22.8261 17.8415 23.8682 17.5143C24.423 17.3483 24.9983 17.2603 25.5774 17.2529C26.8952 17.2518 28.1725 17.7089 29.1902 18.5461C29.6051 18.8865 30.194 18.4078 29.9391 17.9355L29.932 17.9232C29.0855 16.4219 27.7998 15.2155 26.2477 14.4662C26.0256 14.3584 25.8006 14.2617 25.5744 14.1732C25.4983 10.2545 20.9496 6.59414 20.9496 6.59414C22.1713 6.66563 22.2141 5.44922 22.2141 5.44922C22.2891 3.97441 21.2906 2.79258 19.9131 2.71172C19.5661 2.69372 19.2221 2.78402 18.9287 2.97012L18.1318 3.47051C17.8651 3.64235 17.5835 3.79001 17.2904 3.91172C17.0888 3.9933 16.909 4.12103 16.7656 4.28466C16.6223 4.44829 16.5192 4.64326 16.4649 4.85391C16.4649 4.85391 16.0975 4.96289 15.9627 5.08828C15.8674 5.16973 15.7977 5.27701 15.762 5.39719C15.7262 5.51737 15.7261 5.64531 15.7614 5.7656C15.7968 5.88588 15.8662 5.99336 15.9613 6.07508C16.0564 6.15681 16.173 6.20928 16.2973 6.22617C16.2973 6.22617 16.4848 6.25781 16.8322 6.19043Z"
+                fill="#005C2B"
+              />
+            </svg>
+            Register Vehicle
+          </h2>
+          <button class="close-modal" onclick="closeVehicleModal()">✕</button>
+        </div>
+
+        <form id="vehicleForm" onsubmit="submitVehicle(event)">
+          <div class="form-group">
+            <label for="rfidScan">RFID Scanner</label>
+            <button
+              type="button"
+              id="startRFIDScanBtn"
+              class="btn btn-scan"
+              onclick="startRFIDScan()"
+            >
+              Start Scan
+            </button>
+
+            <div id="rfidScanStatus" class="scan-status">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.84548 27.2934C8.23965 27.2641 10.1568 25.2998 10.1276 22.906C10.0983 20.5121 8.13374 18.5953 5.73957 18.6245C3.3454 18.6538 1.42825 20.6181 1.4575 23.0119C1.48675 25.4058 3.45131 27.3226 5.84548 27.2934Z"
+                  fill="#005C2B"
+                />
+                <path
+                  d="M25.6288 27.2943C28.023 27.265 29.9401 25.3007 29.9109 22.9069C29.8816 20.513 27.9171 18.5961 25.5229 18.6254C23.1287 18.6546 21.2116 20.619 21.2408 23.0128C21.2701 25.4066 23.2346 27.3235 25.6288 27.2943Z"
+                  fill="#005C2B"
+                />
+              </svg>
+              <p class="scan-text">Click 'Start Scan' button when ready</p>
+            </div>
+            <input type="hidden" id="vehicleRFID" name="rfid" />
+          </div>
+
+          <div class="form-group">
+            <label for="plateNo">Plate Number</label>
+            <input
+              type="text"
+              id="plateNo"
+              name="plateNo"
+              placeholder="e.g., ABC-1234"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="vehicleType">Vehicle Type</label>
+            <select id="vehicleType" name="type" required>
+              <option value="">Select type</option>
+              <option value="Car">Car</option>
+              <option value="Motorcycle">Motorcycle</option>
+              <option value="Truck">Truck</option>
+              <option value="Van">Van</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="vehicleOwner">Owner Name</label>
+            <input
+              type="text"
+              id="vehicleOwner"
+              name="owner"
+              placeholder="e.g., Juan Dela Cruz"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="vehicleRole">Role</label>
+            <select id="vehicleRole" name="role" required>
+              <option value="">Select role</option>
+              <option value="Student">Student</option>
+              <option value="Faculty">Faculty</option>
+              <option value="Staff">Staff</option>
+              <option value="Visitor">Visitor</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="vehicleYear">Year</label>
+            <select id="vehicleYear" name="year" required>
+              <option value="">Select year</option>
+              <option value="First Year">First Year</option>
+              <option value="Second Year">Second Year</option>
+              <option value="Third Year">Third Year</option>
+              <option value="Fourth Year">Fourth Year</option>
+              <option value="N/A">N/A</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="vehicleSection">Section</label>
+            <input
+              type="text"
+              id="vehicleSection"
+              name="section"
+              placeholder="e.g., 2-A"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="vehicleCourse">Course</label>
+            <input
+              type="text"
+              id="vehicleCourse"
+              name="course"
+              placeholder="e.g., BSIT"
+            />
+          </div>
+
+          <div class="form-actions">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              onclick="closeVehicleModal()"
+            >
+              Cancel
+            </button>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              id="submitVehicleBtn"
+              disabled
+            >
+              Register Vehicle
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Notification and Confirmation Modals (reuse from fingerprint.html) -->
+    <div class="notification-modal" id="notificationModal">
+      <div class="notification-content">
+        <div class="notification-icon" id="notificationIcon"></div>
+        <h3 class="notification-title" id="notificationTitle">Notification</h3>
+        <p class="notification-message" id="notificationMessage">Message</p>
+        <div class="notification-actions">
+          <button class="btn btn-primary" onclick="closeNotification()">
+            OK
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="notification-modal" id="confirmationModal">
+      <div class="notification-content">
+        <div class="notification-icon warning">
+          <svg
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2L2 20h20L12 2z"
+              stroke="#f39c12"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M12 9v4M12 17h.01"
+              stroke="#f39c12"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <h3 class="notification-title" id="confirmationTitle">
+          Confirm Action
+        </h3>
+        <p class="notification-message" id="confirmationMessage">
+          Are you sure?
+        </p>
+        <div class="notification-actions">
+          <button class="btn btn-secondary" onclick="closeConfirmation(false)">
+            Cancel
+          </button>
+          <button class="btn btn-primary" onclick="closeConfirmation(true)">
+            Confirm
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
   </body>
 </html>
